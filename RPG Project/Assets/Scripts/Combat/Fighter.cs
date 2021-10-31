@@ -1,15 +1,13 @@
-using UnityEngine;
-using RPG.Movement;
-using RPG.Core;
-using GameDevTV.Saving;
-using RPG.Attributes;
-using RPG.Stats;
-using System.Collections.Generic;
-using GameDevTV.Utils;
-using System;
+using Core;
 using GameDevTV.Inventories;
+using GameDevTV.Saving;
+using GameDevTV.Utils;
+using RPG.Attributes;
+using RPG.Movement;
+using RPG.Stats;
+using UnityEngine;
 
-namespace RPG.Combat
+namespace Combat
 {
     public class Fighter : MonoBehaviour, IAction, ISaveable
     {

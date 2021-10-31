@@ -1,9 +1,9 @@
+using Control;
+using Core;
 using UnityEngine;
 using UnityEngine.Playables;
-using RPG.Core;
-using RPG.Control;
 
-namespace RPG.Cinematics
+namespace Cinematics
 {
     public class CinematicControlRemover : MonoBehaviour
     {

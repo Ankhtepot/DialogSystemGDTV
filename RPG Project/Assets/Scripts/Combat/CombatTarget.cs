@@ -1,8 +1,8 @@
-using UnityEngine;
+using Control;
 using RPG.Attributes;
-using RPG.Control;
+using UnityEngine;
 
-namespace RPG.Combat
+namespace Combat
 {
     [RequireComponent(typeof(Health))]
     public class CombatTarget : MonoBehaviour, IRaycastable

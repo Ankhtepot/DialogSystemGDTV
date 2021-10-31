@@ -1,10 +1,10 @@
-﻿using UnityEngine;
-using RPG.Attributes;
+﻿using System.Collections.Generic;
 using GameDevTV.Inventories;
+using RPG.Attributes;
 using RPG.Stats;
-using System.Collections.Generic;
+using UnityEngine;
 
-namespace RPG.Combat
+namespace Combat
 {
     [CreateAssetMenu(fileName = "Weapon", menuName = "Weapons/Make New Weapon", order = 0)]
     public class WeaponConfig : EquipableItem, IModifierProvider

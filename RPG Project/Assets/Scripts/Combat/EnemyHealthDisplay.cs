@@ -3,7 +3,7 @@ using RPG.Attributes;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace RPG.Combat
+namespace Combat
 {
     public class EnemyHealthDisplay : MonoBehaviour
     {

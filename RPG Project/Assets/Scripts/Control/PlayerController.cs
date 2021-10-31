@@ -1,12 +1,11 @@
-using RPG.Combat;
+using System;
+using RPG.Attributes;
 using RPG.Movement;
 using UnityEngine;
-using RPG.Attributes;
-using System;
-using UnityEngine.EventSystems;
 using UnityEngine.AI;
+using UnityEngine.EventSystems;
 
-namespace RPG.Control
+namespace Control
 {
     public class PlayerController : MonoBehaviour
     {

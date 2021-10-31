@@ -1,6 +1,6 @@
 using System;
 using System.Collections;
-using RPG.Control;
+using Control;
 using GameDevTV.Saving;
 using UnityEngine;
 using UnityEngine.AI;

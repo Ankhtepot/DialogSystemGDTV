@@ -1,4 +1,4 @@
-namespace RPG.Control
+namespace Control
 {
     public enum CursorType
     {

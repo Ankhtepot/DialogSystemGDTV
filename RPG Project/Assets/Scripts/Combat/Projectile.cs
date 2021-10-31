@@ -1,8 +1,8 @@
-﻿using UnityEngine;
-using RPG.Attributes;
+﻿using RPG.Attributes;
+using UnityEngine;
 using UnityEngine.Events;
 
-namespace RPG.Combat
+namespace Combat
 {
     public class Projectile : MonoBehaviour
     {

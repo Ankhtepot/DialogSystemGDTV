@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe0716bd-0f8e-4fe8-b3d3-4c3c826fc78e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/Rotator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/Rotator.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Not For Student Use - licence required/Environments - Misc other assets/Village/WindMill.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Not For Student Use - licence required/Environments - Misc other assets/Village/WindMill.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Not For Student Use - licence required/Synty Asset Packs - Commercial licence required/PolygonAdventure/Materials/PolyAdventureMaterial_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Not For Student Use - licence required/Synty Asset Packs - Commercial licence required/PolygonAdventure/Materials/PolyAdventureMaterial_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Not For Student Use - licence required/Synty Asset Packs - Commercial licence required/PolygonAdventure/Materials/PolyAdventureMaterial_03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Not For Student Use - licence required/Synty Asset Packs - Commercial licence required/PolygonAdventure/Materials/PolyAdventureMaterial_03.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Not For Student Use - licence required/Synty Asset Packs - Commercial licence required/PolygonAdventure/Materials/PolyAdventureMaterial_04.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Not For Student Use - licence required/Synty Asset Packs - Commercial licence required/PolygonAdventure/Materials/PolyAdventureMaterial_04.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Not For Student Use - licence required/Synty Asset Packs - Commercial licence required/PolygonAdventure/Materials/PolyAdventureMaterial_Dark_02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Not For Student Use - licence required/Synty Asset Packs - Commercial licence required/PolygonAdventure/Materials/PolyAdventureMaterial_Dark_02.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attributes/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cinematics/CinematicControlRemover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cinematics/CinematicControlRemover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cinematics/CinematicTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cinematics/CinematicTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/EnemyHealthDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/EnemyHealthDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponPickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/CursorType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/CursorType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/IRaycastable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/IRaycastable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PatrolPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PatrolPath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CameraFacing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CameraFacing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/DestroyAfterEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/DestroyAfterEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/FollowCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/FollowCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/IAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/IAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PeristentObjectSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PeristentObjectSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/Portal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/Portal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/Rotator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Control/CursorType.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Core/CameraFacing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Projectile.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Cinematics/CinematicControlRemover.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Cinematics/CinematicTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Utils/Rotator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="20EIU0Y2XI49VtPryMvknn9EZqb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe0716bd-0f8e-4fe8-b3d3-4c3c826fc78e" name="Default Changelist" comment="" />
+      <created>1635603334693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635603334693</updated>
+      <workItem from="1635603378098" duration="2565000" />
+      <workItem from="1635653997187" duration="6249000" />
+      <workItem from="1635685399069" duration="2085000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
