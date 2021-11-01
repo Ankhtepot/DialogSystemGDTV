@@ -20,10 +20,10 @@ MonoBehaviour:
     text: bye
     children: []
   - uniqueId: c
-    text: die
+    text: die 2
     children: []
   - uniqueId: d
-    text: kiss
+    text: frenchkiss 4
     children: []
   - uniqueId: e
     text: kick

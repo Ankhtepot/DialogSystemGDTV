@@ -20,5 +20,7 @@ namespace Dialogue
 #endif
 
         public IEnumerable<DialogueNode> AllNodes => nodes;
+
+        public DialogueNode RootNode => nodes[0];
     }
 }
