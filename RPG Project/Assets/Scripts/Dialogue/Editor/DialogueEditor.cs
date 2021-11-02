@@ -54,7 +54,6 @@ namespace Dialogue.Editor
         private void OnSelectionChange()
         {
             var newDialogue = Selection.activeObject as Dialogue;
-            // Debug.Log($"OnSelectionChanged. Selected object: {newDialogue}");
             if (newDialogue)
             {
                 selectedDialogue = newDialogue;
@@ -114,8 +113,6 @@ namespace Dialogue.Editor
                 Vector3 startTangent = startPosition + tangentOffset;
                 Vector3 endTangent = endPosition - tangentOffset;
                 Handles.DrawBezier(startPosition, endPosition, startTangent, endTangent, Color.cyan, null, 4f);
-                // Handles.color = Color.cyan;
-                // Handles.ArrowHandleCap(0, endPosition, Quaternion.LookRotation(Vector3.right), 1f, EventType.Repaint);
             }
         }
 
@@ -123,7 +120,6 @@ namespace Dialogue.Editor
         {
             if (Event.current.type == EventType.MouseDown && draggedNode == null)
             {
-                // Debug.Log("Start dragging");
                 draggedNode = GetNodeAtPoint(Event.current.mousePosition);
 
                 if (draggedNode == null) return;
@@ -132,14 +128,12 @@ namespace Dialogue.Editor
             }
             else if (draggedNode != null && Event.current.type == EventType.MouseDrag)
             {
-                // Debug.Log("Drag move");
                 Undo.RecordObject(selectedDialogue, "Moving root Dialogue Node");
                 draggedNode.rect.position = Event.current.mousePosition + draggingOffset;
                 GUI.changed = true;
             }
             else if (Event.current.type == EventType.MouseUp && draggedNode != null)
             {
-                // Debug.Log("Stopping dragging");
                 draggedNode = null;
             }
         }
