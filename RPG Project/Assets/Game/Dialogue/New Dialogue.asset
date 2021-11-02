@@ -15,16 +15,34 @@ MonoBehaviour:
   nodes:
   - uniqueId: a
     text: ahoj
-    children: []
+    children:
+    - b
+    - c
+    rect:
+      serializedVersion: 2
+      x: 39
+      y: 243
+      width: 200
+      height: 150
   - uniqueId: b
     text: bye
-    children: []
+    children:
+    - 
+    - 
+    rect:
+      serializedVersion: 2
+      x: 296
+      y: 346
+      width: 200
+      height: 150
   - uniqueId: c
     text: die 2
-    children: []
-  - uniqueId: d
-    text: frenchkiss 4
-    children: []
-  - uniqueId: e
-    text: kick
-    children: []
+    children:
+    - 
+    - 
+    rect:
+      serializedVersion: 2
+      x: 292
+      y: 132
+      width: 200
+      height: 150
