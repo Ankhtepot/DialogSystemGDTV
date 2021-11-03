@@ -14,6 +14,13 @@ namespace Dialogue.Editor
         [NonSerialized] private DialogueNode creatingNode;
         [NonSerialized] private DialogueNode deletingNode;
         [NonSerialized] private DialogueNode linkingParentNode;
+        private Vector2 scrollPosition;
+        [NonSerialized] private bool draggingCanvas;
+        [NonSerialized] private Vector2 draggingCanvasOffset;
+
+        private const float canvasSize = 4000;
+        private const float backgroundSize = 50;
+        private Texture2D backgroundTexture;
 
         [MenuItem("Window/Dialogue Editor")]
         public static void ShowEditorWindow()
@@ -33,6 +40,7 @@ namespace Dialogue.Editor
 
         private void OnEnable()
         {
+            backgroundTexture = Resources.Load("background") as Texture2D;
             Selection.selectionChanged += OnSelectionChange;
             nodeStyle = new GUIStyle
             {
@@ -70,6 +78,13 @@ namespace Dialogue.Editor
             else
             {
                 ProcessEvents();
+
+                scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
+                Rect canvas = GUILayoutUtility.GetRect(canvasSize, canvasSize);
+                float backgroundTileRatio = canvasSize / backgroundSize;
+                Rect texCoords = new Rect(0, 0, backgroundTileRatio, backgroundTileRatio);
+                GUI.DrawTextureWithTexCoords(canvas, backgroundTexture, texCoords);
+
                 foreach (var node in selectedDialogue.AllNodes)
                 {
                     DrawConnections(node);
@@ -79,15 +94,17 @@ namespace Dialogue.Editor
                 {
                     DrawNode(node);
                 }
+                
+                EditorGUILayout.EndScrollView();
 
-                if (creatingNode != null)
+                if (creatingNode)
                 {
                     Undo.RecordObject(selectedDialogue, "Created new DialogueNode");
                     selectedDialogue.CreateNode(creatingNode);
                     creatingNode = null;
                 }
 
-                if (deletingNode != null)
+                if (deletingNode)
                 {
                     Undo.RecordObject(selectedDialogue, "Deleted DialogueNode");
                     selectedDialogue.DeleteNode(deletingNode);
@@ -118,23 +135,38 @@ namespace Dialogue.Editor
 
         private void ProcessEvents()
         {
-            if (Event.current.type == EventType.MouseDown && draggedNode == null)
+            if (Event.current.type == EventType.MouseDown && !draggedNode)
             {
-                draggedNode = GetNodeAtPoint(Event.current.mousePosition);
+                Vector2 clickPosition = Event.current.mousePosition + scrollPosition;
+                draggedNode = GetNodeAtPoint(clickPosition);
 
-                if (draggedNode == null) return;
+                if (!draggedNode)
+                {
+                    draggingCanvas = true;
+                    draggingCanvasOffset = clickPosition;
+                    Selection.activeObject = selectedDialogue;
+                    return;
+                }
 
+                Selection.activeObject = draggedNode;
                 draggingOffset = draggedNode.rect.position - Event.current.mousePosition;
             }
-            else if (draggedNode != null && Event.current.type == EventType.MouseDrag)
+            else if (draggedNode && Event.current.type == EventType.MouseDrag)
             {
                 Undo.RecordObject(selectedDialogue, "Moving root Dialogue Node");
                 draggedNode.rect.position = Event.current.mousePosition + draggingOffset;
                 GUI.changed = true;
             }
-            else if (Event.current.type == EventType.MouseUp && draggedNode != null)
+            else if (Event.current.type == EventType.MouseUp && draggedNode)
             {
                 draggedNode = null;
+            } else if (draggingCanvas && Event.current.type == EventType.MouseDrag)
+            {
+                scrollPosition = draggingCanvasOffset - Event.current.mousePosition;
+                GUI.changed = true;
+            } else if (Event.current.type == EventType.MouseUp && draggingCanvas)
+            {
+                draggingCanvas = false;
             }
         }
 
@@ -173,7 +205,7 @@ namespace Dialogue.Editor
                 deletingNode = node;
             }
 
-            if (linkingParentNode == null)
+            if (!linkingParentNode)
             {
                 if (GUILayout.Button("link"))
                 {
@@ -198,22 +230,22 @@ namespace Dialogue.Editor
 
         private void DrawLinkButtons(DialogueNode node)
         {
-            if (linkingParentNode.uniqueId != node.uniqueId 
-                && !linkingParentNode.children.Contains(node.uniqueId) 
+            if (linkingParentNode.name != node.name 
+                && !linkingParentNode.children.Contains(node.name) 
                 && GUILayout.Button("Child") )
             {
                 Undo.RecordObject(selectedDialogue, "Add Dialogue Link");
-                linkingParentNode.children.Add(node.uniqueId);
+                linkingParentNode.children.Add(node.name);
                 linkingParentNode = null;
-            } else if (linkingParentNode.uniqueId != node.uniqueId
-                       && linkingParentNode.children.Contains(node.uniqueId)
+            } else if (linkingParentNode.name != node.name
+                       && linkingParentNode.children.Contains(node.name)
                        && GUILayout.Button("Unlink"))
             {
                 Undo.RecordObject(selectedDialogue, "Unlinking connection in Dialogue");
-                linkingParentNode.children.Remove(node.uniqueId);
+                linkingParentNode.children.Remove(node.name);
                 linkingParentNode = null;
             }
-            else if (linkingParentNode.uniqueId == node.uniqueId 
+            else if (linkingParentNode.name == node.name 
                      && GUILayout.Button("Cancel"))
             {
                 Undo.RecordObject(selectedDialogue, "Canceling creation of new link in Dialogue");

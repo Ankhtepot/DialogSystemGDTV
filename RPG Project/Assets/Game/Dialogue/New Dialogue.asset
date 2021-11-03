@@ -13,36 +13,24 @@ MonoBehaviour:
   m_Name: New Dialogue
   m_EditorClassIdentifier: 
   nodes:
-  - uniqueId: a
-    text: ahoj
-    children:
-    - b
-    - c
-    rect:
-      serializedVersion: 2
-      x: 39
-      y: 243
-      width: 200
-      height: 150
-  - uniqueId: b
-    text: bye
-    children:
-    - 
-    - 
-    rect:
-      serializedVersion: 2
-      x: 296
-      y: 346
-      width: 200
-      height: 150
-  - uniqueId: c
-    text: die 2
-    children:
-    - 
-    - 
-    rect:
-      serializedVersion: 2
-      x: 292
-      y: 132
-      width: 200
-      height: 150
+  - {fileID: 1790101438279291982}
+--- !u!114 &1790101438279291982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
+  m_Name: 7695a32c-699c-4b50-bcd8-6b2fb5ddb47e
+  m_EditorClassIdentifier: 
+  text: 
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 8
+    y: 23
+    width: 200
+    height: 100

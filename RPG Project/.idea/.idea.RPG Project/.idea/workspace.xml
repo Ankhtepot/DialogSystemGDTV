@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe0716bd-0f8e-4fe8-b3d3-4c3c826fc78e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/Resources.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/Resources/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/Resources/background.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 3.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Quest.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Quest.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Quest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Quest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuestUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/QuestUI.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" afterDir="false" />
@@ -45,8 +48,8 @@
       <option value="$PROJECT_DIR$/Assets/QuestUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Quest.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20EIU0Y2XI49VtPryMvknn9EZqb" />
@@ -106,8 +109,24 @@
       <workItem from="1635745429786" duration="1315000" />
       <workItem from="1635778969102" duration="2988000" />
       <workItem from="1635826698189" duration="4037000" />
-      <workItem from="1635831200158" duration="4132000" />
+      <workItem from="1635831200158" duration="8193000" />
+      <workItem from="1635912699556" duration="5130000" />
     </task>
+    <task id="LOCAL-00001" summary="Up to lesson 21. Finished connections between nodes.">
+      <created>1635835834755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635835834755</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removed commented out code.">
+      <created>1635835893357</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635835893357</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,5 +150,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Up to lesson 21. Finished connections between nodes." />
+    <MESSAGE value="Removed commented out code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed commented out code." />
   </component>
 </project>
