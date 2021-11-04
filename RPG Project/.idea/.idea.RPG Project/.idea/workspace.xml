@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe0716bd-0f8e-4fe8-b3d3-4c3c826fc78e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 2.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" afterDir="false" />
-    </list>
+    <list default="true" id="fe0716bd-0f8e-4fe8-b3d3-4c3c826fc78e" name="Default Changelist" comment="Up to lesson 31. Playing with auto layout." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +92,7 @@
       <workItem from="1635831200158" duration="8193000" />
       <workItem from="1635912699556" duration="5172000" />
       <workItem from="1635954993254" duration="3502000" />
-      <workItem from="1635999023345" duration="2295000" />
+      <workItem from="1635999023345" duration="3031000" />
     </task>
     <task id="LOCAL-00001" summary="Up to lesson 21. Finished connections between nodes.">
       <created>1635835834755</created>
@@ -125,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635919808694</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Up to lesson 31. Playing with auto layout.">
+      <created>1636005276564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636005276564</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +149,7 @@
     <MESSAGE value="Up to lesson 21. Finished connections between nodes." />
     <MESSAGE value="Removed commented out code." />
     <MESSAGE value="Up to lesson 26. Added sub assets and DialogNodes as ScriptableObjects." />
-    <option name="LAST_COMMIT_MESSAGE" value="Up to lesson 26. Added sub assets and DialogNodes as ScriptableObjects." />
+    <MESSAGE value="Up to lesson 31. Playing with auto layout." />
+    <option name="LAST_COMMIT_MESSAGE" value="Up to lesson 31. Playing with auto layout." />
   </component>
 </project>
