@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc1f5d71-0cb1-4b6c-aaff-991de43cbc84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/Resources/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/Resources/background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 3.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 3.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +33,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635915832119</updated>
       <workItem from="1635915834184" duration="41000" />
+      <workItem from="1635919830863" duration="9000" />
     </task>
     <servers />
   </component>

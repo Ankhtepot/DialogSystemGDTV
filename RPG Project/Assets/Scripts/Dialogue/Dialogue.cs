@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
@@ -11,19 +10,9 @@ namespace Dialogue
     public class Dialogue : ScriptableObject, ISerializationCallbackReceiver
     {
         [SerializeField] private List<DialogueNode> nodes = new List<DialogueNode>();
+        [SerializeField] private Vector2 newNodeOffset = new Vector2(50, 0);
         private Dictionary<string, DialogueNode> nodeLookup = new Dictionary<string, DialogueNode>();
-
-#if UNITY_EDITOR
-        private void Awake()
-        {
-            // if (nodes.Count == 0)
-            // {
-            //     CreateNode(null);
-            // }
-            //
-            // OnValidate();
-        }
-#endif
+        
         private void OnValidate()
         {
             nodeLookup = nodes.ToDictionary(node => node.name);
@@ -37,7 +26,7 @@ namespace Dialogue
         {
             // return parentNode.children.SelectMany(id => nodes.Where(childNode => id == childNode.uniqueId));
 
-            foreach (var childId in parentNode.children)
+            foreach (var childId in parentNode.Children)
             {
                 if (nodeLookup.ContainsKey(childId))
                 {
@@ -46,28 +35,45 @@ namespace Dialogue
             }
         }
 
+#if UNITY_EDITOR
         public void CreateNode(DialogueNode parent)
+        {
+            var newNode = MakeNode(parent);
+            Undo.RegisterCreatedObjectUndo(newNode, "Created Dialogue node");
+
+            Undo.RecordObject(this, "Created new DialogueNode");
+            AddNode(newNode);
+        }
+        
+        private DialogueNode MakeNode(DialogueNode parent)
         {
             var newNode = CreateInstance<DialogueNode>();
             newNode.name = Guid.NewGuid().ToString();
-            Undo.RegisterCreatedObjectUndo(newNode, "Created Dialogue node");
 
             if (parent)
             {
-                var newRect = new Rect(parent.rect)
+                var newRect = new Rect(parent.Rect)
                 {
-                    x = parent.rect.x + parent.rect.width + 50
+                    x = parent.Rect.xMax + newNodeOffset.x,
+                    y = parent.Rect.yMin + (parent.Children.Count * 100) + newNodeOffset.y
                 };
-                newNode.rect = newRect;
-                parent.children.Add(newNode.name);
+                newNode.IsPlayerSpeaking = !parent.IsPlayerSpeaking;
+                newNode.Rect = newRect;
+                parent.AddChild(newNode.name);
             }
 
+            return newNode;
+        }
+        
+        private void AddNode(DialogueNode newNode)
+        {
             nodes.Add(newNode);
             OnValidate();
         }
 
         public void DeleteNode(DialogueNode nodeToDelete)
         {
+            Undo.RecordObject(this, "Deleted DialogueNode");
             nodes.Remove(nodeToDelete);
             OnValidate();
 
@@ -80,15 +86,17 @@ namespace Dialogue
         {
             foreach (var node in AllNodes)
             {
-                node.children.Remove(nodeToDelete.name);
+                node.RemoveChild(nodeToDelete.name);
             }
         }
+#endif
 
         public void OnBeforeSerialize()
         {
+#if UNITY_EDITOR
             if (nodes.Count == 0)
             {
-                CreateNode(null);
+                AddNode(MakeNode(null));
             }
 
             if (!string.IsNullOrEmpty(AssetDatabase.GetAssetPath(this)))
@@ -101,26 +109,8 @@ namespace Dialogue
                     }
                 }
             }
+#endif
         }
-
-        // public void OnBeforeSerialize()
-        // {
-        //     if (nodes.Count == 0)
-        //     {
-        //         CreateNode(null);
-        //     }
-        //
-        //     if (AssetDatabase.GetAssetPath(this) != "")
-        //     {
-        //         foreach (DialogueNode node in AllNodes)
-        //         {
-        //             if (AssetDatabase.GetAssetPath(node) == "")
-        //             {
-        //                 AssetDatabase.AddObjectToAsset(node, this);
-        //             }
-        //         }
-        //     }
-        // }
 
         public void OnAfterDeserialize()
         {
