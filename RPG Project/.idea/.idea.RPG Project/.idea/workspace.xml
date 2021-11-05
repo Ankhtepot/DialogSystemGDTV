@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe0716bd-0f8e-4fe8-b3d3-4c3c826fc78e" name="Default Changelist" comment="Up to lesson 31. Playing with auto layout." />
+    <list default="true" id="fe0716bd-0f8e-4fe8-b3d3-4c3c826fc78e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Dialogue.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Dialogue.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/UI Canvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/UI Canvas.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Core/Core.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Core/Core.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Inventory Canvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Inventory Canvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UILayouts.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UILayouts.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +104,8 @@
       <workItem from="1635831200158" duration="8193000" />
       <workItem from="1635912699556" duration="5172000" />
       <workItem from="1635954993254" duration="3502000" />
-      <workItem from="1635999023345" duration="3031000" />
+      <workItem from="1635999023345" duration="3065000" />
+      <workItem from="1636122946128" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="Up to lesson 21. Finished connections between nodes.">
       <created>1635835834755</created>
@@ -122,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636005276564</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="unsaved changes">
+      <created>1636005356143</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636005356143</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +170,7 @@
     <MESSAGE value="Removed commented out code." />
     <MESSAGE value="Up to lesson 26. Added sub assets and DialogNodes as ScriptableObjects." />
     <MESSAGE value="Up to lesson 31. Playing with auto layout." />
-    <option name="LAST_COMMIT_MESSAGE" value="Up to lesson 31. Playing with auto layout." />
+    <MESSAGE value="unsaved changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="unsaved changes" />
   </component>
 </project>
