@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7955632934385308978
+--- !u!114 &-8503296665704276020
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,14 +10,59 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
-  m_Name: ddb207ea-e8f2-47d5-a851-8c178a8c2874
+  m_Name: b6ef251e-8ac4-4c17-9617-3d1fb22c25d6
   m_EditorClassIdentifier: 
-  text: 
-  children: []
+  text: Did I say Newton? I'm actually from Springville.
+  children:
+  - eff0b67b-cc8a-4707-ada6-d6f85c4b1525
   rect:
     serializedVersion: 2
-    x: 934
-    y: 621
+    x: 339
+    y: 181
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+--- !u!114 &-7640303192853198683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
+  m_Name: 0f0de00a-6d02-41ca-9ee6-550b3ccdc887
+  m_EditorClassIdentifier: 
+  text: Who?
+  children:
+  - 6ce21a6e-5f54-4213-831f-8c5bf33cae50
+  rect:
+    serializedVersion: 2
+    x: 857
+    y: 199
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+--- !u!114 &-5253491716373699105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
+  m_Name: 2c7e0801-fec6-4254-b8df-01f59ffe48f6
+  m_EditorClassIdentifier: 
+  text: Mr. Bowler is a good friend of mine!
+  children:
+  - ed8bdc12-c652-45fe-9b46-d29cf0560fb8
+  rect:
+    serializedVersion: 2
+    x: 850
+    y: 63
     width: 200
     height: 100
   isPlayerSpeaking: 1
@@ -33,40 +78,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
   m_Name: 0e69dba4-3adf-4faa-ad75-629afb35e1a4
   m_EditorClassIdentifier: 
-  text: 
+  text: Newton, eh? I heard there's trouble brewing down there.
   children:
-  - 0e9ca9b0-7e02-4ed3-b473-9b194f41f6d2
-  - 33c6a456-fb34-4bc4-8fb8-d4f82e94d02a
-  - 5a57ac48-626b-4e05-91fd-5c532ab56e1c
-  - ddb207ea-e8f2-47d5-a851-8c178a8c2874
+  - 76929fef-6378-48ed-b8d3-e1b732424426
+  - b6ef251e-8ac4-4c17-9617-3d1fb22c25d6
   rect:
     serializedVersion: 2
-    x: 684
-    y: 321
+    x: 379
+    y: 413
     width: 200
     height: 100
   isPlayerSpeaking: 0
---- !u!114 &-2720814016940053469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
-  m_Name: 5a57ac48-626b-4e05-91fd-5c532ab56e1c
-  m_EditorClassIdentifier: 
-  text: 
-  children: []
-  rect:
-    serializedVersion: 2
-    x: 934
-    y: 521
-    width: 200
-    height: 100
-  isPlayerSpeaking: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,17 +99,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54a736eeb034b08499d62663a00c8909, type: 3}
-  m_Name: New Dialogue
+  m_Name: New in Town
   m_EditorClassIdentifier: 
   nodes:
   - {fileID: 1790101438279291982}
   - {fileID: -3154566494869673743}
   - {fileID: 6178277327007601512}
-  - {fileID: 6643250830801391628}
   - {fileID: 9193613694370270711}
-  - {fileID: -2720814016940053469}
-  - {fileID: -7955632934385308978}
+  - {fileID: 6968841148837752793}
+  - {fileID: -5253491716373699105}
+  - {fileID: -7640303192853198683}
+  - {fileID: 5234097626325019015}
+  - {fileID: 2134069475080549439}
+  - {fileID: -8503296665704276020}
+  - {fileID: 1262280346964647410}
   newNodeOffset: {x: 50, y: 0}
+--- !u!114 &1262280346964647410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
+  m_Name: ed8bdc12-c652-45fe-9b46-d29cf0560fb8
+  m_EditorClassIdentifier: 
+  text: You liar! there ain't no Mr. Bowler, I made him up!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1100
+    y: 63
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
 --- !u!114 &1790101438279291982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,17 +147,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
   m_Name: 7695a32c-699c-4b50-bcd8-6b2fb5ddb47e
   m_EditorClassIdentifier: 
-  text: 
+  text: You don't look like from around here.
   children:
   - 19baf8d8-7dc2-4372-9082-68ab23d20e81
   - 289a0e08-85cc-4ad2-afa7-ed5b60f2ac51
   - 4fc1c119-7481-456b-9912-bb6af08c5407
   - 0d6e677d-ad6d-48fc-bd2a-7842e5dbb603
+  - 33c6a456-fb34-4bc4-8fb8-d4f82e94d02a
   - db62b081-8901-4479-b3b8-c400c89f827b
   rect:
     serializedVersion: 2
-    x: 62
-    y: 145
+    x: 20
+    y: 46
+    width: 200
+    height: 100
+  isPlayerSpeaking: 0
+--- !u!114 &2134069475080549439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
+  m_Name: 76929fef-6378-48ed-b8d3-e1b732424426
+  m_EditorClassIdentifier: 
+  text: I haven't heard about any trouble.
+  children:
+  - 6ce21a6e-5f54-4213-831f-8c5bf33cae50
+  rect:
+    serializedVersion: 2
+    x: 841
+    y: 417
+    width: 200
+    height: 100
+  isPlayerSpeaking: 1
+--- !u!114 &5234097626325019015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
+  m_Name: 6ce21a6e-5f54-4213-831f-8c5bf33cae50
+  m_EditorClassIdentifier: 
+  text: Don't you worry about it. Say, do you have something to eat? I'm starving.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1090
+    y: 305
     width: 200
     height: 100
   isPlayerSpeaking: 0
@@ -126,17 +217,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
   m_Name: db62b081-8901-4479-b3b8-c400c89f827b
   m_EditorClassIdentifier: 
-  text: 
+  text: I came from Newton.
   children:
   - 0e69dba4-3adf-4faa-ad75-629afb35e1a4
   rect:
     serializedVersion: 2
-    x: 312
-    y: 310
+    x: 143
+    y: 285
     width: 200
     height: 100
   isPlayerSpeaking: 1
---- !u!114 &6643250830801391628
+--- !u!114 &6968841148837752793
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,17 +237,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
-  m_Name: 0e9ca9b0-7e02-4ed3-b473-9b194f41f6d2
+  m_Name: eff0b67b-cc8a-4707-ada6-d6f85c4b1525
   m_EditorClassIdentifier: 
-  text: 
-  children: []
+  text: Oh really? Then you must know Mr. Bowler.
+  children:
+  - 2c7e0801-fec6-4254-b8df-01f59ffe48f6
+  - 0f0de00a-6d02-41ca-9ee6-550b3ccdc887
   rect:
     serializedVersion: 2
-    x: 927
-    y: 313
+    x: 600
+    y: 63
     width: 200
     height: 100
-  isPlayerSpeaking: 1
+  isPlayerSpeaking: 0
 --- !u!114 &9193613694370270711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,12 +262,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
   m_Name: 33c6a456-fb34-4bc4-8fb8-d4f82e94d02a
   m_EditorClassIdentifier: 
-  text: 
-  children: []
+  text: I've lived here all my life!
+  children:
+  - eff0b67b-cc8a-4707-ada6-d6f85c4b1525
   rect:
     serializedVersion: 2
-    x: 934
-    y: 421
+    x: 329
+    y: 73
     width: 200
     height: 100
   isPlayerSpeaking: 1
