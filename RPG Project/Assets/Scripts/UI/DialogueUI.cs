@@ -11,6 +11,8 @@ namespace UI
         private PlayerConversant playerConversant;
         [SerializeField] private TextMeshProUGUI AiText;
         [SerializeField] private Button nextButton;
+        [SerializeField] private Transform choiceRoot;
+        [SerializeField] private GameObject choicePrefab;
 
         private void Start()
         {
@@ -23,6 +25,16 @@ namespace UI
         {
             AiText.text = playerConversant.GetText();
             nextButton.gameObject.SetActive(playerConversant.HasNext());
+            foreach (Transform item in choiceRoot)
+            {
+                Destroy(item.gameObject);
+            }
+
+            foreach (string choice in playerConversant.GetChoices())
+            {
+                var newChoice = Instantiate(choicePrefab, choiceRoot);
+                newChoice.GetComponentInChildren<TextMeshProUGUI>().text = choice;
+            }
         }
 
         private void Next()

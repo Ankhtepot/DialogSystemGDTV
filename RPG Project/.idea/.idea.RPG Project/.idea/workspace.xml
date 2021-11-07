@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe0716bd-0f8e-4fe8-b3d3-4c3c826fc78e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New in Town.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New in Town.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/Test2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/Test2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/PlayerConversant.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/PlayerConversant.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DialogueUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DialogueUI.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Choice Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/Choice Button.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Dialogue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/UI/Dialogue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/PlayerConversant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/PlayerConversant.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/DialogueUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DialogueUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +102,8 @@
       <workItem from="1635954993254" duration="3502000" />
       <workItem from="1635999023345" duration="3065000" />
       <workItem from="1636122946128" duration="729000" />
-      <workItem from="1636174424382" duration="2757000" />
+      <workItem from="1636174424382" duration="3400000" />
+      <workItem from="1636294663560" duration="1067000" />
     </task>
     <task id="LOCAL-00001" summary="Up to lesson 21. Finished connections between nodes.">
       <created>1635835834755</created>
@@ -154,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636127784991</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Up to lesson 40. Implementing answer choices.">
+      <created>1636212611483</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636212611483</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +184,7 @@
     <MESSAGE value="Up to lesson 31. Playing with auto layout." />
     <MESSAGE value="unsaved changes" />
     <MESSAGE value="Up to lesson 36. Layered out basic Dialogue UI." />
-    <option name="LAST_COMMIT_MESSAGE" value="Up to lesson 36. Layered out basic Dialogue UI." />
+    <MESSAGE value="Up to lesson 40. Implementing answer choices." />
+    <option name="LAST_COMMIT_MESSAGE" value="Up to lesson 40. Implementing answer choices." />
   </component>
 </project>

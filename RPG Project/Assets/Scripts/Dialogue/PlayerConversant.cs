@@ -23,6 +23,12 @@ namespace Dialogue
                 : "";
         }
 
+        public IEnumerable<string> GetChoices()
+        {
+            yield return "I've lived here whole my life!";
+            yield return "I come here from Newton.";
+        }
+
         public void Next()
         {
             var children = currentDialogue.GetAllChildren(currentNode).ToList();
