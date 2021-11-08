@@ -115,5 +115,15 @@ namespace Dialogue
         public void OnAfterDeserialize()
         {
         }
+
+        public IEnumerable<DialogueNode> GetPlayerChildren(DialogueNode node)
+        {
+            return GetAllChildren(node).Where(child => child.IsPlayerSpeaking);
+        }
+
+        public IEnumerable<DialogueNode> GetAIChildren(DialogueNode node)
+        {
+            return GetAllChildren(node).Where(child => !child.IsPlayerSpeaking);
+        }
     }
 }
