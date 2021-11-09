@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe0716bd-0f8e-4fe8-b3d3-4c3c826fc78e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/AIConversant.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/AIConversant.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueTrigger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueTrigger.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New in Town.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New in Town.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Dialogue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/UI/Dialogue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/CursorType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/CursorType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/PlayerConversant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/PlayerConversant.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/DialogueUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DialogueUI.cs" afterDir="false" />
     </list>
@@ -20,8 +29,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/DialogueUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/Rotator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Courses/DialogSystemGDTV/RPG Project/Assets/Scripts/Dialogue/DialogueNode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/AIConversant.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -103,7 +115,8 @@
       <workItem from="1636122946128" duration="729000" />
       <workItem from="1636174424382" duration="3400000" />
       <workItem from="1636294663560" duration="4022000" />
-      <workItem from="1636345711776" duration="3820000" />
+      <workItem from="1636345711776" duration="3930000" />
+      <workItem from="1636432366227" duration="5689000" />
     </task>
     <task id="LOCAL-00001" summary="Up to lesson 21. Finished connections between nodes.">
       <created>1635835834755</created>
@@ -154,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636212611483</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Up to lesson 45.">
+      <created>1636350572204</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1636350572204</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +205,7 @@
     <MESSAGE value="unsaved changes" />
     <MESSAGE value="Up to lesson 36. Layered out basic Dialogue UI." />
     <MESSAGE value="Up to lesson 40. Implementing answer choices." />
-    <option name="LAST_COMMIT_MESSAGE" value="Up to lesson 40. Implementing answer choices." />
+    <MESSAGE value="Up to lesson 45." />
+    <option name="LAST_COMMIT_MESSAGE" value="Up to lesson 45." />
   </component>
 </project>

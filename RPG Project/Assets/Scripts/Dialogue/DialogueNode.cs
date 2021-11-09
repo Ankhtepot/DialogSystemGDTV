@@ -9,10 +9,14 @@ namespace Dialogue
     {
         [SerializeField] private string text;
         [SerializeField] List<string> children = new List<string>();
-        [SerializeField] Rect rect = new Rect(0, 0, 200, 100);
+        [SerializeField] Rect rect = new Rect(0, 0, 200, 185);
         [SerializeField] private bool isPlayerSpeaking;
+        [SerializeField] private string onEnterAction;
+        [SerializeField] private string onExitAction;
 
         public List<string> Children => children;
+        public string OnEnterAction => onEnterAction;
+        public string OnExitAction => onExitAction;
 
 #if UNITY_EDITOR
         public void AddChild(string newChild)
@@ -53,6 +57,32 @@ namespace Dialogue
                 EditorUtility.SetDirty(this);
 #endif
                 text = value;
+            }
+        }
+        
+        public string TriggerEnterAction
+        {
+            get => onEnterAction;
+            set
+            {
+#if UNITY_EDITOR
+                Undo.RecordObject(this, "Changing DialogNode onEnterAction.");
+                EditorUtility.SetDirty(this);
+#endif
+                onEnterAction = value;
+            }
+        }
+        
+        public string TriggerExitAction
+        {
+            get => onExitAction;
+            set
+            {
+#if UNITY_EDITOR
+                Undo.RecordObject(this, "Changing DialogNode onExitAction.");
+                EditorUtility.SetDirty(this);
+#endif
+                onExitAction = value;
             }
         }
 

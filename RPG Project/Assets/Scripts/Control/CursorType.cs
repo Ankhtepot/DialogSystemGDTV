@@ -8,5 +8,6 @@ namespace Control
         UI,
         Pickup,
         FullPickup,
+        Dialogue
     }
 }

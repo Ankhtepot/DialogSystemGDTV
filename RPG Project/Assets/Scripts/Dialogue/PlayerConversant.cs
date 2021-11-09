@@ -10,9 +10,9 @@ namespace Dialogue
 {
     public class PlayerConversant : MonoBehaviour
     {
-        [SerializeField] private Dialogue testDialogue;
         private Dialogue currentDialogue;
         private DialogueNode currentNode;
+        private AIConversant currentConversant;
         private bool isChoosing;
 
         public UnityAction onConversationUpdated;
@@ -20,13 +20,24 @@ namespace Dialogue
         private IEnumerator Start()
         {
             yield return new WaitForSeconds(2);
-            StartDialogue(testDialogue);
         }
 
-        public void StartDialogue(Dialogue newDialogue)
+        public void StartDialogue(AIConversant newConversant, Dialogue newDialogue)
         {
+            currentConversant = newConversant;
             currentDialogue = newDialogue;
             currentNode = currentDialogue.RootNode;
+            TriggerEnterAction();
+            onConversationUpdated?.Invoke();
+        }
+
+        public void Quit()
+        {
+            currentDialogue = null;
+            TriggerExitAction();
+            currentConversant = null;
+            currentNode = null;
+            isChoosing = false;
             onConversationUpdated?.Invoke();
         }
 
@@ -54,8 +65,9 @@ namespace Dialogue
 
         public void SelectChoice(DialogueNode chosenNode)
         {
-            isChoosing = false;
             currentNode = chosenNode;
+            TriggerExitAction();
+            isChoosing = false;
             Next();
         }
 
@@ -65,18 +77,47 @@ namespace Dialogue
             if (numOfPlayerResponses > 0)
             {
                 isChoosing = true;
+                TriggerExitAction();
                 onConversationUpdated?.Invoke();
                 return;
             }
 
             var children = currentDialogue.GetAIChildren(currentNode).ToList();
+            TriggerExitAction();
             currentNode = children[Random.Range(0, children.Count)];
+            TriggerEnterAction();
             onConversationUpdated?.Invoke();
         }
 
         public bool HasNext()
         {
             return currentDialogue.GetAllChildren(currentNode).Any();
+        }
+
+        private void TriggerEnterAction()
+        {
+            if (currentNode && !string.IsNullOrEmpty(currentNode.OnEnterAction))
+            {
+                Debug.Log(currentNode.OnEnterAction);
+                TriggerAction(currentNode.OnEnterAction);
+            }
+        }
+
+        private void TriggerExitAction()
+        {
+            if (currentNode && !string.IsNullOrEmpty(currentNode.OnExitAction))
+            {
+                Debug.Log(currentNode.OnExitAction);
+                TriggerAction(currentNode.OnExitAction);
+            }
+        }
+
+        private void TriggerAction(string action)
+        {
+            foreach (var dialogueTrigger in currentConversant.GetComponents<DialogueTrigger>())
+            {
+                dialogueTrigger.Trigger(action);
+            }
         }
     }
 }

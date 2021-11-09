@@ -207,8 +207,8 @@ namespace Dialogue.Editor
         {
             GUILayout.BeginArea(node.Rect, !node.IsPlayerSpeaking ? nodeStyle : playerNodeStyle);
 
+            EditorGUILayout.LabelField("Text:");
             var newText = EditorGUILayout.TextField(node.Text);
-
             node.Text = newText;
 
             GUILayout.BeginHorizontal();
@@ -244,6 +244,14 @@ namespace Dialogue.Editor
             {
                 node.IsPlayerSpeaking = !node.IsPlayerSpeaking;
             }
+            
+            EditorGUILayout.LabelField("Trigger Enter Action:");
+            newText = EditorGUILayout.TextField(node.TriggerEnterAction);
+            node.TriggerEnterAction = newText;
+            
+            EditorGUILayout.LabelField("Trigger Exit Action:");
+            newText = EditorGUILayout.TextField(node.TriggerExitAction);
+            node.TriggerExitAction = newText;
 
             GUILayout.EndArea();
         }
