@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace GameDevTV.Core.UI.Tooltips
+namespace Asset_Packs.GameDev.tv_Assets.Scripts.Utils.UI.Tooltips
 {
     /// <summary>
     /// Abstract base class that handles the spawning of a tooltip prefab at the

@@ -21,6 +21,9 @@ MonoBehaviour:
     y: 188
     width: 200
     height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36,6 +39,7 @@ MonoBehaviour:
   nodes:
   - {fileID: -3229072231796138723}
   - {fileID: 8778154228322356426}
+  newNodeOffset: {x: 50, y: 0}
 --- !u!114 &8778154228322356426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56,3 +60,6 @@ MonoBehaviour:
     y: 153
     width: 200
     height: 100
+  isPlayerSpeaking: 0
+  onEnterAction: 
+  onExitAction: 

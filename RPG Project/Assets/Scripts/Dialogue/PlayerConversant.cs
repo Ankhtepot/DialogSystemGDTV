@@ -10,10 +10,13 @@ namespace Dialogue
 {
     public class PlayerConversant : MonoBehaviour
     {
+        [SerializeField] private string playerName;
         private Dialogue currentDialogue;
         private DialogueNode currentNode;
         private AIConversant currentConversant;
         private bool isChoosing;
+        private string currentConversantName;
+        public string CurrentConversantName => isChoosing ? playerName : currentConversantName;
 
         public UnityAction onConversationUpdated;
 
@@ -25,6 +28,7 @@ namespace Dialogue
         public void StartDialogue(AIConversant newConversant, Dialogue newDialogue)
         {
             currentConversant = newConversant;
+            currentConversantName = newConversant.ConversantName;
             currentDialogue = newDialogue;
             currentNode = currentDialogue.RootNode;
             TriggerEnterAction();
@@ -36,6 +40,7 @@ namespace Dialogue
             currentDialogue = null;
             TriggerExitAction();
             currentConversant = null;
+            currentConversantName = null;
             currentNode = null;
             isChoosing = false;
             onConversationUpdated?.Invoke();

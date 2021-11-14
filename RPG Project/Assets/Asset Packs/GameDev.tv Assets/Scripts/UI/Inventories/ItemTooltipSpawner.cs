@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Asset_Packs.GameDev.tv_Assets.Scripts.Utils.UI.Tooltips;
 using UnityEngine;
-using GameDevTV.Core.UI.Tooltips;
 
-namespace GameDevTV.UI.Inventories
+namespace Asset_Packs.GameDev.tv_Assets.Scripts.UI.Inventories
 {
     /// <summary>
     /// To be placed on a UI slot to spawn and show the correct item tooltip.
