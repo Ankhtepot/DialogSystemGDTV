@@ -1,64 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe0716bd-0f8e-4fe8-b3d3-4c3c826fc78e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/MutherHubbardSon.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/MutherHubbardSon.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Quests.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Quests/Find the missing sock.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Quests/Find the missing sock.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Quests/Mother Hubbards bunions.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Quests/Mother Hubbards bunions.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/Objective.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/Objective.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/ObjectiveComplete.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/ObjectiveComplete.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/QuestTooltip.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/QuestTooltip.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/RewardsItem.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/RewardsItem.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/AgroGroup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/AgroGroup.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestGiver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestGiver.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestList.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestStatus.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Quests.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestItemUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestItemUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestListUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestListUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestTooltipSpawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestTooltipSpawner.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestTooltipUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestTooltipUI.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/ActionSlotUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/ActionSlotUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/EquipmentSlotUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/EquipmentSlotUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/IItemHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/IItemHolder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryDragItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryDragItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryDropTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryDropTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryItemIcon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryItemIcon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventorySlotUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventorySlotUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/ItemTooltip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/ItemTooltip.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/ItemTooltipSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/ItemTooltipSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/ShowHideUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/ShowHideUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Utils/UI/Tooltips/TooltipSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Utils/UI/Tooltips/TooltipSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/Dialogue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/UI/Dialogue.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/UI Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/UI/UI Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/AIConversant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/AIConversant.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/PlayerConversant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/PlayerConversant.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/DialogueUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/DialogueUI.cs" afterDir="false" />
+    <list default="true" id="fe0716bd-0f8e-4fe8-b3d3-4c3c826fc78e" name="Default Changelist" comment="Up to lesson 58. Quest giver can give quest now.">
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/Quest.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/Quest.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/QuestUI.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/QuestUI.prefab.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quests/QuestGiver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestListUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Combat/AgroGroup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Courses/DialogSystemGDTV/RPG Project/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/ActionSlotUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/DialogueUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestTooltipUI.cs" root0="FORCE_HIGHLIGHTING" />
@@ -172,7 +121,7 @@
       <workItem from="1636605245926" duration="601000" />
       <workItem from="1636690767666" duration="1334000" />
       <workItem from="1636777416153" duration="3136000" />
-      <workItem from="1636864734271" duration="4366000" />
+      <workItem from="1636864734271" duration="4705000" />
     </task>
     <task id="LOCAL-00001" summary="Up to lesson 21. Finished connections between nodes.">
       <created>1635835834755</created>
@@ -237,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636474812252</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Up to lesson 58. Quest giver can give quest now.">
+      <created>1636872374169</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1636872374169</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,25 +226,7 @@
     <MESSAGE value="Up to lesson 40. Implementing answer choices." />
     <MESSAGE value="Up to lesson 45." />
     <MESSAGE value="Up to lesson 49. Triggered action from conversation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Up to lesson 49. Triggered action from conversation." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestListUI.cs</url>
-          <line>21</line>
-          <properties documentPath="D:\Courses\DialogSystemGDTV\RPG Project\Assets\Scripts\UI\Quests\QuestListUI.cs" initialLine="21" containingFunctionPresentation="method 'Redraw'">
-            <startOffsets>
-              <option value="492" />
-            </startOffsets>
-            <endOffsets>
-              <option value="530" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Up to lesson 58. Quest giver can give quest now." />
+    <option name="LAST_COMMIT_MESSAGE" value="Up to lesson 58. Quest giver can give quest now." />
   </component>
 </project>
