@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GameDevTV.Saving
+namespace Saving
 {
     /// <summary>
     /// A `System.Serializable` wrapper for the `Vector3` class.

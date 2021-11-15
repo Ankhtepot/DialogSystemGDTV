@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using GameDevTV.Saving;
+﻿using Saving;
+using UnityEngine;
 
 namespace GameDevTV.Inventories
 {

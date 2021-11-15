@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
+using Saving;
 using UnityEngine;
-using GameDevTV.Saving;
 
 namespace GameDevTV.Inventories
 {

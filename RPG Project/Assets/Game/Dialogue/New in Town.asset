@@ -214,13 +214,13 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 1284
-    y: 316
+    x: 1301
+    y: 335
     width: 200
     height: 185
   isPlayerSpeaking: 0
   onEnterAction: 
-  onExitAction: 
+  onExitAction: TestCompletion
 --- !u!114 &6178277327007601512
 MonoBehaviour:
   m_ObjectHideFlags: 0
