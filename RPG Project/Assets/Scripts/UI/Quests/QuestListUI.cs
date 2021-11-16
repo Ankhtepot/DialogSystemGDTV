@@ -1,5 +1,3 @@
-using System;
-using Control;
 using Quests;
 using UnityEngine;
 
@@ -13,7 +11,7 @@ namespace UI.Quests
         private void Start()
         {
             questList = GameObject.FindGameObjectWithTag("Player").GetComponent<QuestList>();
-            questList.onUpdate += Redraw;
+            questList.onUpdate.AddListener(Redraw);
             Redraw();
         }
 
@@ -34,7 +32,7 @@ namespace UI.Quests
         {
             if (questList)
             {
-                questList.onUpdate -= Redraw;
+                questList.onUpdate.RemoveListener(Redraw);
             }
         }
     }

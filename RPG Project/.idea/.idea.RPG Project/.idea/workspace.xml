@@ -2,36 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe0716bd-0f8e-4fe8-b3d3-4c3c826fc78e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Quests/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Quests/Resources/Find the missing sock.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Quests/Resources/Find the missing sock.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Quests/Resources/Mother Hubbards bunions.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game/Quests/Resources/Mother Hubbards bunions.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestCompletion.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestCompletion.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/ActionStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/ActionStore.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/Equipment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/Equipment.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/Inventory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/ItemDropper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/ItemDropper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/PickupSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/PickupSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Quests/Find the missing sock.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Quests/Find the missing sock.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Quests/Mother Hubbards bunions.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Quests/Mother Hubbards bunions.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attributes/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attributes/Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Quests/Resources/Mother Hubbards bunions.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Quests/Resources/Mother Hubbards bunions.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/QuestTooltip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/QuestTooltip.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/QuestUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/QuestUI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestStatus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/ISaveable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/ISaveable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/SaveableEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SaveableEntity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/SerializableVector3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SerializableVector3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/Portal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/Portal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/SavingWrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagement/SavingWrapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/Experience.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/Experience.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestListUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestListUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestTooltipUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestTooltipUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +29,22 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestListUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Combat/AgroGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/DialogueUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Courses/DialogSystemGDTV/RPG Project/Assets/Scripts/Quests/QuestStatus.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestTooltipUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quests/QuestStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Courses/DialogSystemGDTV/RPG Project/Assets/Scripts/Quests/Quest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestTooltipSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/AIConversant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Courses/DialogSystemGDTV/RPG Project/Assets/Scripts/UI/Quests/QuestTooltipUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quests/QuestList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quests/QuestCompletion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Courses/DialogSystemGDTV/RPG Project/Assets/Scripts/Quests/Quest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Courses/DialogSystemGDTV/RPG Project/Assets/Scripts/Quests/QuestList.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -107,10 +93,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="30684">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="30684" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -147,7 +133,8 @@
       <workItem from="1636690767666" duration="1334000" />
       <workItem from="1636777416153" duration="3136000" />
       <workItem from="1636864734271" duration="4877000" />
-      <workItem from="1636950424023" duration="5086000" />
+      <workItem from="1636950424023" duration="5234000" />
+      <workItem from="1637034794622" duration="1813000" />
     </task>
     <task id="LOCAL-00001" summary="Up to lesson 21. Finished connections between nodes.">
       <created>1635835834755</created>
@@ -226,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636872583657</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Up to lesson 60.">
+      <created>1636957463832</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1636957463832</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +255,7 @@
     <MESSAGE value="Up to lesson 49. Triggered action from conversation." />
     <MESSAGE value="Up to lesson 58. Quest giver can give quest now." />
     <MESSAGE value="Uncommitted  changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Uncommitted  changes." />
+    <MESSAGE value="Up to lesson 60." />
+    <option name="LAST_COMMIT_MESSAGE" value="Up to lesson 60." />
   </component>
 </project>

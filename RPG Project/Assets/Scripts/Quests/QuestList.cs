@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using GameDevTV.Inventories;
 using Saving;
 using UnityEngine;
 using UnityEngine.Events;
@@ -12,7 +13,7 @@ namespace Quests
         private readonly List<QuestStatus> statuses = new List<QuestStatus>();
 
         public IEnumerable<QuestStatus> QuestStatuses => statuses;
-        public event Action onUpdate;
+        public UnityEvent onUpdate;
 
         public void AddQuest(Quest quest)
         {
@@ -41,6 +42,10 @@ namespace Quests
             if (TryGetQuestStatus(quest, out var status))
             {
                 status.AddCompletedObjective(objective);
+                if (status.IsComplete())
+                {
+                    GiveReward(quest);
+                }
                 onUpdate?.Invoke();
             }
         }
@@ -61,6 +66,19 @@ namespace Quests
             foreach (var objectState in stateList)
             {
                 statuses.Add(new QuestStatus(objectState));
+            }
+        }
+        
+        private void GiveReward(Quest quest)
+        {
+            foreach (var reward in quest.Rewards)
+            {
+                bool success = GetComponent<Inventory>().AddToFirstEmptySlot(reward.item, reward.number);
+
+                if (!success)
+                {
+                    GetComponent<ItemDropper>().DropItem(reward.item, reward.number);
+                }
             }
         }
     }

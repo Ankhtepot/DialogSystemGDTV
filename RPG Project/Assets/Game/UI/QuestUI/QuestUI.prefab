@@ -533,9 +533,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0aa297a95484b7f428e223034542566a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempQuests:
-  - {fileID: 11400000, guid: 80bf5fcf473f453409212690cf82ed45, type: 2}
-  - {fileID: 11400000, guid: dbcd3a755ff8aa54fbb135341cfc925a, type: 2}
   questPrefab: {fileID: 5350330058872813563, guid: a54698341bdec3c4ab64e64ed2ff7cf0,
     type: 3}
 --- !u!1 &4136576938163863915

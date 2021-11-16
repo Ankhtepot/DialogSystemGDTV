@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UI.Quests;
 using UnityEngine;
 
@@ -50,6 +51,11 @@ namespace Quests
                 questName = quest.name,
                 completedObjectives = completedObjectives
             };
+        }
+
+        public bool IsComplete()
+        {
+            return quest.Objectives.All(objective => completedObjectives.Contains(objective.reference));
         }
     }
 }
