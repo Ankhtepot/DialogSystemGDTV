@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Saving;
 using UnityEngine;
 
-namespace GameDevTV.Inventories
+namespace Asset_Packs.GameDev.tv_Assets.Scripts.Inventories
 {
     /// <summary>
     /// Provides a store for the items equipped to a player. Items are stored by

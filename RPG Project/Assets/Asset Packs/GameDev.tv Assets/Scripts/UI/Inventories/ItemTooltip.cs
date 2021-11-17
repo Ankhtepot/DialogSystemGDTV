@@ -1,4 +1,4 @@
-﻿using GameDevTV.Inventories;
+﻿using Asset_Packs.GameDev.tv_Assets.Scripts.Inventories;
 using TMPro;
 using UnityEngine;
 

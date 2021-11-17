@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace GameDevTV.Inventories
+namespace Asset_Packs.GameDev.tv_Assets.Scripts.Inventories
 {
     /// <summary>
     /// To be placed at the root of a Pickup prefab. Contains the data about the

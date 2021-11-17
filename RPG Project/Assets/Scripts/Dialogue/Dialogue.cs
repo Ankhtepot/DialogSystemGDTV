@@ -6,6 +6,14 @@ using UnityEngine;
 
 namespace Dialogue
 {
+    public enum EDialogueActions
+    {
+        None,
+        GiveQuest,
+        Attack,
+        CompleteQuest
+    }
+    
     [CreateAssetMenu(fileName = "New Dialogue", menuName = "Dialogue", order = 0)]
     public class Dialogue : ScriptableObject, ISerializationCallbackReceiver
     {
@@ -55,7 +63,7 @@ namespace Dialogue
                 var newRect = new Rect(parent.Rect)
                 {
                     x = parent.Rect.xMax + newNodeOffset.x,
-                    y = parent.Rect.yMin + (parent.Children.Count * 100) + newNodeOffset.y
+                    y = parent.Rect.yMin + (parent.Children.Count * 200) + newNodeOffset.y
                 };
                 newNode.IsPlayerSpeaking = !parent.IsPlayerSpeaking;
                 newNode.Rect = newRect;

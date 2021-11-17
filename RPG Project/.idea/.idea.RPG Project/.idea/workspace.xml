@@ -2,17 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe0716bd-0f8e-4fe8-b3d3-4c3c826fc78e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Wearables/Resources/Foot Cream.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Wearables/Resources/Foot Cream.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Condition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Condition.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/EPredicate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/EPredicate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/IPredicateEvaluator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/IPredicateEvaluator.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/ActionItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/ActionItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/ActionStore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/ActionStore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/EquipLocation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/EquipLocation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/EquipableItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/EquipableItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/Equipment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/Equipment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/Inventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/InventoryItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/InventoryItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/ItemDropper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/ItemDropper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/Pickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/Pickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/PickupSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/PickupSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/ActionSlotUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/ActionSlotUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/EquipmentSlotUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/EquipmentSlotUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/IItemHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/IItemHolder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryDragItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryDragItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryDropTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryDropTarget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryItemIcon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryItemIcon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventorySlotUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventorySlotUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/InventoryUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/ItemTooltip.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/GameDev.tv Assets/Scripts/UI/Inventories/ItemTooltip.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/MutherHubbardSon.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/MutherHubbardSon.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New Dialogue 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Dialogue/New in Town.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Dialogue/New in Town.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game/Quests/Resources/Mother Hubbards bunions.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Quests/Resources/Mother Hubbards bunions.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/QuestTooltip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/QuestTooltip.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/QuestUI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/UI/QuestUI/QuestUI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/WeaponConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/ClickablePickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dialogue/PlayerConversant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dialogue/PlayerConversant.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventories/DropLibrary.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventories/DropLibrary.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventories/RandomDropper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventories/RandomDropper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventories/StatsEquipableItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventories/StatsEquipableItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Inventories/StatsEquipment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Inventories/StatsEquipment.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quests/QuestStatus.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Saving/SavingSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestListUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestListUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestTooltipUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestTooltipUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,29 +61,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/Rotator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Unity/projects/Dungeon/Assets/AssetsLicensed/Crest/Scripts/OceanValidation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quests/QuestGiver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestListUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Condition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Combat/AgroGroup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/IPredicateEvaluator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/DialogueUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Courses/DialogSystemGDTV/RPG Project/Assets/Scripts/Quests/QuestStatus.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/Dialogue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestTooltipUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quests/QuestStatus.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Courses/DialogSystemGDTV/RPG Project/Assets/Scripts/Quests/Quest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Quests/QuestTooltipSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/Editor/DialogueEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quests/Quest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/DialogueTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialogue/AIConversant.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Courses/DialogSystemGDTV/RPG Project/Assets/Scripts/UI/Quests/QuestTooltipUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quests/QuestList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quests/QuestCompletion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/Courses/DialogSystemGDTV/RPG Project/Assets/Scripts/Quests/Quest.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/Courses/DialogSystemGDTV/RPG Project/Assets/Scripts/Quests/QuestList.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -73,7 +117,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34991798" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34669557" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -93,10 +137,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="30684">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="6248">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="30684" />
+      <option name="pid" value="6248" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -135,6 +179,7 @@
       <workItem from="1636864734271" duration="4877000" />
       <workItem from="1636950424023" duration="5234000" />
       <workItem from="1637034794622" duration="1813000" />
+      <workItem from="1637128872614" duration="11392000" />
     </task>
     <task id="LOCAL-00001" summary="Up to lesson 21. Finished connections between nodes.">
       <created>1635835834755</created>
@@ -220,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636957463832</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Up to lesson 62.">
+      <created>1637041992950</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637041992950</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +308,7 @@
     <MESSAGE value="Up to lesson 58. Quest giver can give quest now." />
     <MESSAGE value="Uncommitted  changes." />
     <MESSAGE value="Up to lesson 60." />
-    <option name="LAST_COMMIT_MESSAGE" value="Up to lesson 60." />
+    <MESSAGE value="Up to lesson 62." />
+    <option name="LAST_COMMIT_MESSAGE" value="Up to lesson 62." />
   </component>
 </project>

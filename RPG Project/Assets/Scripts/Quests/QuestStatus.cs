@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Core;
 using UI.Quests;
 using UnityEngine;
 
@@ -56,6 +57,16 @@ namespace Quests
         public bool IsComplete()
         {
             return quest.Objectives.All(objective => completedObjectives.Contains(objective.reference));
+        }
+
+        public bool? Evaluate(EPredicate predicate, string[] parameters)
+        {
+            if (predicate == EPredicate.CompletedQuest)
+            {
+                return IsComplete();
+            }
+
+            return null;
         }
     }
 }

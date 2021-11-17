@@ -2,7 +2,7 @@
 using Saving;
 using UnityEngine;
 
-namespace GameDevTV.Inventories
+namespace Asset_Packs.GameDev.tv_Assets.Scripts.Inventories
 {
     /// <summary>
     /// To be placed on anything that wishes to drop pickups into the world.

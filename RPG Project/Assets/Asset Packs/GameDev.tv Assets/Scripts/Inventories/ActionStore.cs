@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Saving;
 using UnityEngine;
 
-namespace GameDevTV.Inventories
+namespace Asset_Packs.GameDev.tv_Assets.Scripts.Inventories
 {
     /// <summary>
     /// Provides the storage for an action bar. The bar has a finite number of

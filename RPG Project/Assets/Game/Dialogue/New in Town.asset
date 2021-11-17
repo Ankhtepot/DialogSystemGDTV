@@ -22,8 +22,11 @@ MonoBehaviour:
     width: 200
     height: 185
   isPlayerSpeaking: 1
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    predicate: 0
+    parameters: []
 --- !u!114 &-7640303192853198683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46,8 +49,11 @@ MonoBehaviour:
     width: 200
     height: 185
   isPlayerSpeaking: 1
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    predicate: 0
+    parameters: []
 --- !u!114 &-5253491716373699105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70,8 +76,11 @@ MonoBehaviour:
     width: 200
     height: 185
   isPlayerSpeaking: 1
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    predicate: 0
+    parameters: []
 --- !u!114 &-3154566494869673743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,8 +104,11 @@ MonoBehaviour:
     width: 200
     height: 185
   isPlayerSpeaking: 0
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    predicate: 0
+    parameters: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,8 +155,11 @@ MonoBehaviour:
     width: 200
     height: 185
   isPlayerSpeaking: 0
-  onEnterAction: 
-  onExitAction: Attack
+  onEnterAction: 0
+  onExitAction: 2
+  condition:
+    predicate: 0
+    parameters: []
 --- !u!114 &1790101438279291982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,8 +187,11 @@ MonoBehaviour:
     width: 200
     height: 185
   isPlayerSpeaking: 0
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    predicate: 0
+    parameters: []
 --- !u!114 &2134069475080549439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,8 +214,11 @@ MonoBehaviour:
     width: 200
     height: 185
   isPlayerSpeaking: 1
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    predicate: 0
+    parameters: []
 --- !u!114 &5234097626325019015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,8 +240,11 @@ MonoBehaviour:
     width: 200
     height: 185
   isPlayerSpeaking: 0
-  onEnterAction: 
-  onExitAction: TestCompletion
+  onEnterAction: 0
+  onExitAction: 3
+  condition:
+    predicate: 0
+    parameters: []
 --- !u!114 &6178277327007601512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,8 +267,11 @@ MonoBehaviour:
     width: 200
     height: 185
   isPlayerSpeaking: 1
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    predicate: 0
+    parameters: []
 --- !u!114 &6968841148837752793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,8 +295,11 @@ MonoBehaviour:
     width: 200
     height: 185
   isPlayerSpeaking: 0
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    predicate: 1
+    parameters: []
 --- !u!114 &9193613694370270711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,5 +322,8 @@ MonoBehaviour:
     width: 200
     height: 185
   isPlayerSpeaking: 1
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    predicate: 0
+    parameters: []

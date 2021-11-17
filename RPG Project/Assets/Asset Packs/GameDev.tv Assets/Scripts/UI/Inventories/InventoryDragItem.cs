@@ -1,5 +1,5 @@
-﻿using GameDevTV.Core.UI.Dragging;
-using GameDevTV.Inventories;
+﻿using Asset_Packs.GameDev.tv_Assets.Scripts.Inventories;
+using GameDevTV.Core.UI.Dragging;
 
 namespace Asset_Packs.GameDev.tv_Assets.Scripts.UI.Inventories
 {

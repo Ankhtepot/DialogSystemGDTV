@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Linq;
+using Core;
 using Saving;
 using UnityEngine;
 
-namespace GameDevTV.Inventories
+namespace Asset_Packs.GameDev.tv_Assets.Scripts.Inventories
 {
     /// <summary>
     /// Provides storage for the player inventory. A configurable number of
@@ -10,7 +12,7 @@ namespace GameDevTV.Inventories
     ///
     /// This component should be placed on the GameObject tagged "Player".
     /// </summary>
-    public class Inventory : MonoBehaviour, ISaveable
+    public class Inventory : MonoBehaviour, ISaveable, IPredicateEvaluator
     {
         // CONFIG DATA
         [Tooltip("Allowed size")]
@@ -159,6 +161,17 @@ namespace GameDevTV.Inventories
                 inventoryUpdated();
             }
             return true;
+        }
+        
+        public bool? Evaluate(EPredicate predicate, string[] parameters)
+        {
+            switch (predicate)
+            {
+                case EPredicate.HasInventoryItems:
+                    return parameters.All(parameter => HasItem(InventoryItem.GetFromID(parameter)));
+            }
+
+            return null;
         }
 
         // PRIVATE

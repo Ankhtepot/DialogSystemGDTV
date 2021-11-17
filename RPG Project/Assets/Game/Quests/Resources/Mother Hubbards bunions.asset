@@ -14,9 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectives:
   - reference: 1
-    description: bla 1
-  - reference: 2
-    description: bla 2
+    description: Get a foot cream.
   rewards:
   - number: 1
     item: {fileID: 11400000, guid: d64a307491012e543995a2eef4f8cf74, type: 2}

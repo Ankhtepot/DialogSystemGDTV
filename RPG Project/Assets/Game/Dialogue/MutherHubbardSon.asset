@@ -21,8 +21,100 @@ MonoBehaviour:
     width: 200
     height: 185
   isPlayerSpeaking: 0
-  onEnterAction: 
-  onExitAction: GiveQuest
+  onEnterAction: 0
+  onExitAction: 1
+  condition:
+    and: []
+--- !u!114 &-7268980312684888654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
+  m_Name: f6a3e57e-8407-4b1f-9b6a-a423a0a95782
+  m_EditorClassIdentifier: 
+  text: That's amazing, thanks you!
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 493
+    y: 576
+    width: 200
+    height: 185
+  isPlayerSpeaking: 0
+  onEnterAction: 0
+  onExitAction: 3
+  condition:
+    and: []
+--- !u!114 &-7119242562617029186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
+  m_Name: 4c6d44c6-5a5a-4be0-a67e-fb44c22aa4da
+  m_EditorClassIdentifier: 
+  text: I have the foot cream!
+  children:
+  - f6a3e57e-8407-4b1f-9b6a-a423a0a95782
+  rect:
+    serializedVersion: 2
+    x: 244
+    y: 566
+    width: 200
+    height: 185
+  isPlayerSpeaking: 1
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    and:
+    - or:
+      - predicate: 1
+        parameters:
+        - Mother Hubbards bunions
+        negated: 0
+    - or:
+      - predicate: 3
+        parameters:
+        - Mother Hubbards bunions
+        negated: 0
+      - predicate: 2
+        parameters:
+        - c53a6710-69ee-44ba-941c-329a21e90949
+        negated: 0
+--- !u!114 &-1154727620478952561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
+  m_Name: 8ea5a8b6-0016-4296-908f-f611160da1d9
+  m_EditorClassIdentifier: 
+  text: Oops, bad memory.
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 493
+    y: 373
+    width: 200
+    height: 185
+  isPlayerSpeaking: 0
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    and: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40,7 +132,47 @@ MonoBehaviour:
   - {fileID: 6825658003590432360}
   - {fileID: 8273119720344658350}
   - {fileID: -9022547740121475840}
+  - {fileID: 3422985950507397744}
+  - {fileID: -1154727620478952561}
+  - {fileID: -7119242562617029186}
+  - {fileID: -7268980312684888654}
   newNodeOffset: {x: 50, y: 0}
+--- !u!114 &3422985950507397744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01b7a766765c1e47b66f442ffddd99d, type: 3}
+  m_Name: cd3bc53a-44e4-4ef0-b359-a1ff66b79370
+  m_EditorClassIdentifier: 
+  text: I'm already on a case.
+  children:
+  - 8ea5a8b6-0016-4296-908f-f611160da1d9
+  rect:
+    serializedVersion: 2
+    x: 243
+    y: 373
+    width: 200
+    height: 185
+  isPlayerSpeaking: 1
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    and:
+    - or:
+      - predicate: 1
+        parameters:
+        - Mother Hubbards bunions
+        negated: 0
+    - or:
+      - predicate: 3
+        parameters:
+        - Mother Hubbards bunions
+        negated: 1
 --- !u!114 &6825658003590432360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,8 +194,15 @@ MonoBehaviour:
     width: 200
     height: 185
   isPlayerSpeaking: 1
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    and:
+    - or:
+      - predicate: 1
+        parameters:
+        - Mother Hubbards bunions
+        negated: 1
 --- !u!114 &7481353400522266865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,15 +219,19 @@ MonoBehaviour:
   children:
   - 8b4d26e1-d264-4463-8c58-c51dc654330d
   - 60ec1a0b-262d-4c42-94c4-4e842e3e7704
+  - cd3bc53a-44e4-4ef0-b359-a1ff66b79370
+  - 4c6d44c6-5a5a-4be0-a67e-fb44c22aa4da
   rect:
     serializedVersion: 2
-    x: 0
+    x: -1
     y: 0
     width: 200
     height: 185
   isPlayerSpeaking: 0
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    and: []
 --- !u!114 &8273119720344658350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -111,5 +254,12 @@ MonoBehaviour:
     width: 200
     height: 185
   isPlayerSpeaking: 1
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    and:
+    - or:
+      - predicate: 1
+        parameters:
+        - Mother Hubbards bunions
+        negated: 1

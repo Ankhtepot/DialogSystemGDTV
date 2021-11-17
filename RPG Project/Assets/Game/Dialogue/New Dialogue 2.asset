@@ -22,8 +22,11 @@ MonoBehaviour:
     width: 200
     height: 100
   isPlayerSpeaking: 0
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    predicate: 0
+    parameters: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,5 +64,8 @@ MonoBehaviour:
     width: 200
     height: 100
   isPlayerSpeaking: 0
-  onEnterAction: 
-  onExitAction: 
+  onEnterAction: 0
+  onExitAction: 0
+  condition:
+    predicate: 0
+    parameters: []

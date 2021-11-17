@@ -246,12 +246,12 @@ namespace Dialogue.Editor
             }
             
             EditorGUILayout.LabelField("Trigger Enter Action:");
-            newText = EditorGUILayout.TextField(node.TriggerEnterAction);
-            node.TriggerEnterAction = newText;
+            var newDialogueTrigger = (EDialogueActions)EditorGUILayout.EnumPopup("", node.ActionEnterAction);
+            node.ActionEnterAction = newDialogueTrigger;
             
             EditorGUILayout.LabelField("Trigger Exit Action:");
-            newText = EditorGUILayout.TextField(node.TriggerExitAction);
-            node.TriggerExitAction = newText;
+            newDialogueTrigger = (EDialogueActions)EditorGUILayout.EnumPopup("", node.ActionExitAction);
+            node.ActionExitAction = newDialogueTrigger;
 
             GUILayout.EndArea();
         }

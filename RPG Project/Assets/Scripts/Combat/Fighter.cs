@@ -1,5 +1,5 @@
+using Asset_Packs.GameDev.tv_Assets.Scripts.Inventories;
 using Core;
-using GameDevTV.Inventories;
 using GameDevTV.Utils;
 using RPG.Attributes;
 using RPG.Movement;

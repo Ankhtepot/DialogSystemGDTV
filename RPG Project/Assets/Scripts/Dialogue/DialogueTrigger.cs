@@ -5,10 +5,10 @@ namespace Dialogue
 {
     public class DialogueTrigger : MonoBehaviour
     {
-        [SerializeField] private string action;
+        [SerializeField] private EDialogueActions action;
         [SerializeField] private UnityEvent onTrigger;
 
-        public void Trigger(string actionToTrigger)
+        public void Trigger(EDialogueActions actionToTrigger)
         {
             if (actionToTrigger == action)
             {

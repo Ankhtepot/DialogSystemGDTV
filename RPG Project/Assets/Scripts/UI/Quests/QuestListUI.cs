@@ -11,7 +11,7 @@ namespace UI.Quests
         private void Start()
         {
             questList = GameObject.FindGameObjectWithTag("Player").GetComponent<QuestList>();
-            questList.onUpdate.AddListener(Redraw);
+            questList.onUpdate += Redraw;
             Redraw();
         }
 
@@ -32,7 +32,7 @@ namespace UI.Quests
         {
             if (questList)
             {
-                questList.onUpdate.RemoveListener(Redraw);
+                questList.onUpdate += Redraw;
             }
         }
     }

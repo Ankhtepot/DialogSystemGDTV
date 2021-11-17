@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Core;
 using UnityEditor;
 using UnityEngine;
 
@@ -11,12 +12,13 @@ namespace Dialogue
         [SerializeField] List<string> children = new List<string>();
         [SerializeField] Rect rect = new Rect(0, 0, 200, 185);
         [SerializeField] private bool isPlayerSpeaking;
-        [SerializeField] private string onEnterAction;
-        [SerializeField] private string onExitAction;
+        [SerializeField] private EDialogueActions onEnterAction;
+        [SerializeField] private EDialogueActions onExitAction;
+        [SerializeField] private Condition condition;
 
         public List<string> Children => children;
-        public string OnEnterAction => onEnterAction;
-        public string OnExitAction => onExitAction;
+        public EDialogueActions OnEnterAction => onEnterAction;
+        public EDialogueActions OnExitAction => onExitAction;
 
 #if UNITY_EDITOR
         public void AddChild(string newChild)
@@ -60,7 +62,7 @@ namespace Dialogue
             }
         }
         
-        public string TriggerEnterAction
+        public EDialogueActions ActionEnterAction
         {
             get => onEnterAction;
             set
@@ -73,7 +75,7 @@ namespace Dialogue
             }
         }
         
-        public string TriggerExitAction
+        public EDialogueActions ActionExitAction
         {
             get => onExitAction;
             set
@@ -106,6 +108,11 @@ namespace Dialogue
             EditorUtility.SetDirty(this);
 #endif
             rect.position = newPosition;
+        }
+        
+        public bool CheckCondition(IEnumerable<IPredicateEvaluator> evaluators)
+        {
+            return condition.Check(evaluators);
         }
     }
 }

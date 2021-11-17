@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using GameDevTV.Inventories;
+using Asset_Packs.GameDev.tv_Assets.Scripts.Inventories;
 using UnityEngine;
 
 namespace Quests

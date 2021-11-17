@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Core;
 using UnityEngine;
 using UnityEngine.Events;
 using Random = UnityEngine.Random;
@@ -65,7 +66,7 @@ namespace Dialogue
 
         public IEnumerable<DialogueNode> GetChoices()
         {
-            return currentDialogue.GetPlayerChildren(currentNode);
+            return FilterOnCondition(currentDialogue.GetPlayerChildren(currentNode));
         }
 
         public void SelectChoice(DialogueNode chosenNode)
@@ -78,7 +79,7 @@ namespace Dialogue
 
         public void Next()
         {
-            int numOfPlayerResponses = currentDialogue.GetPlayerChildren(currentNode).Count();
+            int numOfPlayerResponses = FilterOnCondition(currentDialogue.GetPlayerChildren(currentNode)).Count();
             if (numOfPlayerResponses > 0)
             {
                 isChoosing = true;
@@ -87,7 +88,7 @@ namespace Dialogue
                 return;
             }
 
-            var children = currentDialogue.GetAIChildren(currentNode).ToList();
+            var children = FilterOnCondition(currentDialogue.GetAIChildren(currentNode)).ToList();
             TriggerExitAction();
             currentNode = children[Random.Range(0, children.Count)];
             TriggerEnterAction();
@@ -96,12 +97,22 @@ namespace Dialogue
 
         public bool HasNext()
         {
-            return currentDialogue.GetAllChildren(currentNode).Any();
+            return FilterOnCondition(currentDialogue.GetAllChildren(currentNode)).Any();
+        }
+
+        private IEnumerable<DialogueNode> FilterOnCondition(IEnumerable<DialogueNode> inputNode)
+        {
+            return inputNode.Where(node => node.CheckCondition(GetEvaluators()));
+        }
+
+        private IEnumerable<IPredicateEvaluator> GetEvaluators()
+        {
+            return GetComponents<IPredicateEvaluator>();
         }
 
         private void TriggerEnterAction()
         {
-            if (currentNode && !string.IsNullOrEmpty(currentNode.OnEnterAction))
+            if (currentNode && currentNode.OnEnterAction != EDialogueActions.None)
             {
                 Debug.Log(currentNode.OnEnterAction);
                 TriggerAction(currentNode.OnEnterAction);
@@ -110,14 +121,14 @@ namespace Dialogue
 
         private void TriggerExitAction()
         {
-            if (currentNode && !string.IsNullOrEmpty(currentNode.OnExitAction))
+            if (currentNode && currentNode.OnExitAction != EDialogueActions.None)
             {
                 Debug.Log(currentNode.OnExitAction);
                 TriggerAction(currentNode.OnExitAction);
             }
         }
 
-        private void TriggerAction(string action)
+        private void TriggerAction(EDialogueActions action)
         {
             foreach (var dialogueTrigger in currentConversant.GetComponents<DialogueTrigger>())
             {
